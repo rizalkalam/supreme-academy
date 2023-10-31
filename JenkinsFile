@@ -3,14 +3,12 @@ pipeline{
     stages {
         stage('Checkout') {
             steps {
-                // Use the 'checkout' step to pull the Git repository (if not already done)
                 checkout scm
             }
         }
 
        stage('Deploy HTML File') {
             steps {
-                // Use the 'sh' step to copy the 'index.html' file to the deployment location
                 sh 'sudo cp index.html /var/www/supremeacademy/'
                 sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/static-web-pipeline/img/* /var/www/supremeacademy/images/'
                 sh 'sudo cp style.css /var/www/supremeacademy/'
