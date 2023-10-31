@@ -10,8 +10,8 @@ pipeline{
        stage('Deploy HTML File') {
             steps {
                 sh 'sudo cp index.html /var/www/supremeacademy/'
-                sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/static-web-pipeline/img/* /var/www/supremeacademy/images/'
-                sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/static-web-pipeline/style/* /var/www/supremeacademy/'
+                sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/SupremeAcademy/img/* /var/www/supremeacademy/images/'
+                sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/SupremeAcademy/style/* /var/www/supremeacademy/'
             }
         }
     }
