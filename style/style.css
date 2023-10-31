@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1300px;
+    height: 667px;
+    fill: aquamarine;
+    border-radius: 45px 45px 250px 45px;
+    background: linear-gradient(109deg, #642B73 13.87%, #3A6186 89.94%);
+
+
+}
+
+.banner-left{
+    width: 30vw;
+    margin-left: 110px;
+}
+
+.banner-left h1, p{
+    color: #fff;
+    margin-top: 35px;
+    font-family: 'Jost', sans-serif;
+}
+
+.banner-left .btn-banner{
+    margin-top: 62px;
+    padding: 20px 50px;
+    border-radius: 30px;
+    font-style: normal;
+    line-height: normal;
+    color: #FFF;
+    background: linear-gradient(272deg, #FFC700 1.28%, #FF3D00 108.6%);
+    border: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.banner-right{
+    margin-right: 41px;
+}
+
+.content-2{
+    height: 1000px;
+}

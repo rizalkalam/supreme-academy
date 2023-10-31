@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-start a{
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+}
+
+nav{
+    z-index: 100;
+    top: 0;
+    padding: 53px 70px 45px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navbar-start{
+    position: relative;
+    max-width: 1440px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 82px;
+}
+
+nav .navbar-end{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-start .icon{
+    display: inline-flex;
+    gap: 11px;
+}
+
+.navbar-start .icon h1{
+    display: flex;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.navbar-start .navbar-link{
+    display: inline-flex;
+    gap: 30px;
+}
+
+.navbar-link li{
+    list-style: none;
+}
+
+.navbar-end .btn-login{
+    padding: 6px 24px;
+    border-radius: 10px;
+    background: #fff;
+    font-family: 'Jost', sans-serif;
+}
