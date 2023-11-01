@@ -9,9 +9,9 @@ pipeline{
 
        stage('Deploy HTML File') {
             steps {
-                sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/SupremeAcademy/index.html /var/www/supremeacadem.my.id/html/'
+                sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/SupremeAcademy/index.html /var/www/worldinyourhand.my.id/html/'
                 sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/SupremeAcademy/assets/* /var/www/html/images/'
-                sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/SupremeAcademy/style/* /var/www/supremeacademy.my.id/html/'
+                sh 'sudo cp -r /home/rizalkalam/.jenkins/workspace/SupremeAcademy/style/* /var/www/worldinyourhand.my.id/html/'
             }
         }
     }
